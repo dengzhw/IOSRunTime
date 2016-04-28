@@ -16,6 +16,9 @@
 		096160691CD1B37500391E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096160671CD1B37500391E9F /* LaunchScreen.storyboard */; };
 		096160741CD1B37500391E9F /* SOPropertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096160731CD1B37500391E9F /* SOPropertyTests.m */; };
 		0961607F1CD1B37500391E9F /* SOPropertyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961607E1CD1B37500391E9F /* SOPropertyUITests.m */; };
+		0961608E1CD1B38800391E9F /* SOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961608D1CD1B38800391E9F /* SOModel.m */; };
+		096160911CD1C1D200391E9F /* UIButton+CallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 096160901CD1C1D200391E9F /* UIButton+CallBack.m */; };
+		096160941CD1DD7500391E9F /* UIImage+SO.m in Sources */ = {isa = PBXBuildFile; fileRef = 096160931CD1DD7500391E9F /* UIImage+SO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		0961607A1CD1B37500391E9F /* SOPropertyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOPropertyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0961607E1CD1B37500391E9F /* SOPropertyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOPropertyUITests.m; sourceTree = "<group>"; };
 		096160801CD1B37500391E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0961608C1CD1B38800391E9F /* SOModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOModel.h; sourceTree = "<group>"; };
+		0961608D1CD1B38800391E9F /* SOModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOModel.m; sourceTree = "<group>"; };
+		0961608F1CD1C1D200391E9F /* UIButton+CallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CallBack.h"; sourceTree = "<group>"; };
+		096160901CD1C1D200391E9F /* UIButton+CallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CallBack.m"; sourceTree = "<group>"; };
+		096160921CD1DD7500391E9F /* UIImage+SO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SO.h"; sourceTree = "<group>"; };
+		096160931CD1DD7500391E9F /* UIImage+SO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,8 @@
 		0961604A1CD1B37500391E9F = {
 			isa = PBXGroup;
 			children = (
+				096160921CD1DD7500391E9F /* UIImage+SO.h */,
+				096160931CD1DD7500391E9F /* UIImage+SO.m */,
 				096160551CD1B37500391E9F /* SOProperty */,
 				096160721CD1B37500391E9F /* SOPropertyTests */,
 				0961607D1CD1B37500391E9F /* SOPropertyUITests */,
@@ -113,6 +124,10 @@
 				0961606A1CD1B37500391E9F /* Info.plist */,
 				096160621CD1B37500391E9F /* SOProperty.xcdatamodeld */,
 				096160561CD1B37500391E9F /* Supporting Files */,
+				0961608C1CD1B38800391E9F /* SOModel.h */,
+				0961608D1CD1B38800391E9F /* SOModel.m */,
+				0961608F1CD1C1D200391E9F /* UIButton+CallBack.h */,
+				096160901CD1C1D200391E9F /* UIButton+CallBack.m */,
 			);
 			path = SOProperty;
 			sourceTree = "<group>";
@@ -276,6 +291,9 @@
 				0961605E1CD1B37500391E9F /* ViewController.m in Sources */,
 				0961605B1CD1B37500391E9F /* AppDelegate.m in Sources */,
 				096160641CD1B37500391E9F /* SOProperty.xcdatamodeld in Sources */,
+				0961608E1CD1B38800391E9F /* SOModel.m in Sources */,
+				096160911CD1C1D200391E9F /* UIButton+CallBack.m in Sources */,
+				096160941CD1DD7500391E9F /* UIImage+SO.m in Sources */,
 				096160581CD1B37500391E9F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
