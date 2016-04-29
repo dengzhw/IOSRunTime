@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		096160531CD1B37500391E9F /* SOProperty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOProperty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		096160531CD1B37500391E9F /* SORunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SORunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		096160571CD1B37500391E9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		096160591CD1B37500391E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0961605A1CD1B37500391E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,16 +51,16 @@
 		096160651CD1B37500391E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		096160681CD1B37500391E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0961606A1CD1B37500391E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0961606F1CD1B37500391E9F /* SOPropertyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOPropertyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0961606F1CD1B37500391E9F /* SORunTime.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SORunTime.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		096160731CD1B37500391E9F /* SOPropertyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOPropertyTests.m; sourceTree = "<group>"; };
 		096160751CD1B37500391E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0961607A1CD1B37500391E9F /* SOPropertyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOPropertyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0961607A1CD1B37500391E9F /* SORunTime.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SORunTime.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0961607E1CD1B37500391E9F /* SOPropertyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOPropertyUITests.m; sourceTree = "<group>"; };
 		096160801CD1B37500391E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0961608C1CD1B38800391E9F /* SOModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOModel.h; sourceTree = "<group>"; };
-		0961608D1CD1B38800391E9F /* SOModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOModel.m; sourceTree = "<group>"; };
-		0961608F1CD1C1D200391E9F /* UIButton+CallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CallBack.h"; sourceTree = "<group>"; };
-		096160901CD1C1D200391E9F /* UIButton+CallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CallBack.m"; sourceTree = "<group>"; };
+		0961608C1CD1B38800391E9F /* SOModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOModel.h; path = SOProperty/SOModel.h; sourceTree = "<group>"; };
+		0961608D1CD1B38800391E9F /* SOModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SOModel.m; path = SOProperty/SOModel.m; sourceTree = "<group>"; };
+		0961608F1CD1C1D200391E9F /* UIButton+CallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+CallBack.h"; path = "SOProperty/UIButton+CallBack.h"; sourceTree = "<group>"; };
+		096160901CD1C1D200391E9F /* UIButton+CallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CallBack.m"; path = "SOProperty/UIButton+CallBack.m"; sourceTree = "<group>"; };
 		096160921CD1DD7500391E9F /* UIImage+SO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SO.h"; sourceTree = "<group>"; };
 		096160931CD1DD7500391E9F /* UIImage+SO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SO.m"; sourceTree = "<group>"; };
 		09DD47CF1CD34E8800A53B8C /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
@@ -95,13 +95,10 @@
 		0961604A1CD1B37500391E9F = {
 			isa = PBXGroup;
 			children = (
-				09DD47CF1CD34E8800A53B8C /* NSObject+KVO.h */,
-				09DD47D01CD34E8800A53B8C /* NSObject+KVO.m */,
-				096160921CD1DD7500391E9F /* UIImage+SO.h */,
-				096160931CD1DD7500391E9F /* UIImage+SO.m */,
-				096160551CD1B37500391E9F /* SOProperty */,
-				096160721CD1B37500391E9F /* SOPropertyTests */,
-				0961607D1CD1B37500391E9F /* SOPropertyUITests */,
+				09DD47D21CD36FD800A53B8C /* RunTime */,
+				096160551CD1B37500391E9F /* SORunTime */,
+				096160721CD1B37500391E9F /* SORunTimeTests */,
+				0961607D1CD1B37500391E9F /* SORunTimeUITests */,
 				096160541CD1B37500391E9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,14 +106,14 @@
 		096160541CD1B37500391E9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				096160531CD1B37500391E9F /* SOProperty.app */,
-				0961606F1CD1B37500391E9F /* SOPropertyTests.xctest */,
-				0961607A1CD1B37500391E9F /* SOPropertyUITests.xctest */,
+				096160531CD1B37500391E9F /* SORunTime.app */,
+				0961606F1CD1B37500391E9F /* SORunTime.xctest */,
+				0961607A1CD1B37500391E9F /* SORunTime.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		096160551CD1B37500391E9F /* SOProperty */ = {
+		096160551CD1B37500391E9F /* SORunTime */ = {
 			isa = PBXGroup;
 			children = (
 				096160591CD1B37500391E9F /* AppDelegate.h */,
@@ -129,11 +126,8 @@
 				0961606A1CD1B37500391E9F /* Info.plist */,
 				096160621CD1B37500391E9F /* SOProperty.xcdatamodeld */,
 				096160561CD1B37500391E9F /* Supporting Files */,
-				0961608C1CD1B38800391E9F /* SOModel.h */,
-				0961608D1CD1B38800391E9F /* SOModel.m */,
-				0961608F1CD1C1D200391E9F /* UIButton+CallBack.h */,
-				096160901CD1C1D200391E9F /* UIButton+CallBack.m */,
 			);
+			name = SORunTime;
 			path = SOProperty;
 			sourceTree = "<group>";
 		};
@@ -145,30 +139,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		096160721CD1B37500391E9F /* SOPropertyTests */ = {
+		096160721CD1B37500391E9F /* SORunTimeTests */ = {
 			isa = PBXGroup;
 			children = (
 				096160731CD1B37500391E9F /* SOPropertyTests.m */,
 				096160751CD1B37500391E9F /* Info.plist */,
 			);
+			name = SORunTimeTests;
 			path = SOPropertyTests;
 			sourceTree = "<group>";
 		};
-		0961607D1CD1B37500391E9F /* SOPropertyUITests */ = {
+		0961607D1CD1B37500391E9F /* SORunTimeUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0961607E1CD1B37500391E9F /* SOPropertyUITests.m */,
 				096160801CD1B37500391E9F /* Info.plist */,
 			);
+			name = SORunTimeUITests;
 			path = SOPropertyUITests;
+			sourceTree = "<group>";
+		};
+		09DD47D21CD36FD800A53B8C /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				0961608C1CD1B38800391E9F /* SOModel.h */,
+				0961608D1CD1B38800391E9F /* SOModel.m */,
+				0961608F1CD1C1D200391E9F /* UIButton+CallBack.h */,
+				096160901CD1C1D200391E9F /* UIButton+CallBack.m */,
+				09DD47CF1CD34E8800A53B8C /* NSObject+KVO.h */,
+				09DD47D01CD34E8800A53B8C /* NSObject+KVO.m */,
+				096160921CD1DD7500391E9F /* UIImage+SO.h */,
+				096160931CD1DD7500391E9F /* UIImage+SO.m */,
+			);
+			name = RunTime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		096160521CD1B37500391E9F /* SOProperty */ = {
+		096160521CD1B37500391E9F /* SORunTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 096160831CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SOProperty" */;
+			buildConfigurationList = 096160831CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SORunTime" */;
 			buildPhases = (
 				0961604F1CD1B37500391E9F /* Sources */,
 				096160501CD1B37500391E9F /* Frameworks */,
@@ -178,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = SOProperty;
+			name = SORunTime;
 			productName = SOProperty;
-			productReference = 096160531CD1B37500391E9F /* SOProperty.app */;
+			productReference = 096160531CD1B37500391E9F /* SORunTime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0961606E1CD1B37500391E9F /* SOPropertyTests */ = {
+		0961606E1CD1B37500391E9F /* SORunTimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 096160861CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SOPropertyTests" */;
+			buildConfigurationList = 096160861CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SORunTimeTests" */;
 			buildPhases = (
 				0961606B1CD1B37500391E9F /* Sources */,
 				0961606C1CD1B37500391E9F /* Frameworks */,
@@ -196,14 +207,14 @@
 			dependencies = (
 				096160711CD1B37500391E9F /* PBXTargetDependency */,
 			);
-			name = SOPropertyTests;
+			name = SORunTimeTests;
 			productName = SOPropertyTests;
-			productReference = 0961606F1CD1B37500391E9F /* SOPropertyTests.xctest */;
+			productReference = 0961606F1CD1B37500391E9F /* SORunTime.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		096160791CD1B37500391E9F /* SOPropertyUITests */ = {
+		096160791CD1B37500391E9F /* SORunTimeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 096160891CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SOPropertyUITests" */;
+			buildConfigurationList = 096160891CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SORunTimeUITests" */;
 			buildPhases = (
 				096160761CD1B37500391E9F /* Sources */,
 				096160771CD1B37500391E9F /* Frameworks */,
@@ -214,9 +225,9 @@
 			dependencies = (
 				0961607C1CD1B37500391E9F /* PBXTargetDependency */,
 			);
-			name = SOPropertyUITests;
+			name = SORunTimeUITests;
 			productName = SOPropertyUITests;
-			productReference = 0961607A1CD1B37500391E9F /* SOPropertyUITests.xctest */;
+			productReference = 0961607A1CD1B37500391E9F /* SORunTime.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0961604E1CD1B37500391E9F /* Build configuration list for PBXProject "SOProperty" */;
+			buildConfigurationList = 0961604E1CD1B37500391E9F /* Build configuration list for PBXProject "SORunTime" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -254,9 +265,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				096160521CD1B37500391E9F /* SOProperty */,
-				0961606E1CD1B37500391E9F /* SOPropertyTests */,
-				096160791CD1B37500391E9F /* SOPropertyUITests */,
+				096160521CD1B37500391E9F /* SORunTime */,
+				0961606E1CD1B37500391E9F /* SORunTimeTests */,
+				096160791CD1B37500391E9F /* SORunTimeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -325,12 +336,12 @@
 /* Begin PBXTargetDependency section */
 		096160711CD1B37500391E9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 096160521CD1B37500391E9F /* SOProperty */;
+			target = 096160521CD1B37500391E9F /* SORunTime */;
 			targetProxy = 096160701CD1B37500391E9F /* PBXContainerItemProxy */;
 		};
 		0961607C1CD1B37500391E9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 096160521CD1B37500391E9F /* SOProperty */;
+			target = 096160521CD1B37500391E9F /* SORunTime */;
 			targetProxy = 0961607B1CD1B37500391E9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +455,7 @@
 				INFOPLIST_FILE = SOProperty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SO.SOProperty;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SORunTime;
 			};
 			name = Debug;
 		};
@@ -455,7 +466,7 @@
 				INFOPLIST_FILE = SOProperty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SO.SOProperty;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SORunTime;
 			};
 			name = Release;
 		};
@@ -466,8 +477,8 @@
 				INFOPLIST_FILE = SOPropertyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SO.SOPropertyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOProperty.app/SOProperty";
+				PRODUCT_NAME = SORunTime;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SORunTime.app/SORunTime";
 			};
 			name = Debug;
 		};
@@ -478,8 +489,8 @@
 				INFOPLIST_FILE = SOPropertyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SO.SOPropertyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOProperty.app/SOProperty";
+				PRODUCT_NAME = SORunTime;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SORunTime.app/SORunTime";
 			};
 			name = Release;
 		};
@@ -489,7 +500,7 @@
 				INFOPLIST_FILE = SOPropertyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SO.SOPropertyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SORunTime;
 				TEST_TARGET_NAME = SOProperty;
 			};
 			name = Debug;
@@ -500,7 +511,7 @@
 				INFOPLIST_FILE = SOPropertyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SO.SOPropertyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SORunTime;
 				TEST_TARGET_NAME = SOProperty;
 			};
 			name = Release;
@@ -508,7 +519,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0961604E1CD1B37500391E9F /* Build configuration list for PBXProject "SOProperty" */ = {
+		0961604E1CD1B37500391E9F /* Build configuration list for PBXProject "SORunTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				096160811CD1B37600391E9F /* Debug */,
@@ -517,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		096160831CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SOProperty" */ = {
+		096160831CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SORunTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				096160841CD1B37600391E9F /* Debug */,
@@ -526,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		096160861CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SOPropertyTests" */ = {
+		096160861CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SORunTimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				096160871CD1B37600391E9F /* Debug */,
@@ -535,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		096160891CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SOPropertyUITests" */ = {
+		096160891CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SORunTimeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0961608A1CD1B37600391E9F /* Debug */,

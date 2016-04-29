@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "096160521CD1B37500391E9F"
-               BuildableName = "SOProperty.app"
-               BlueprintName = "SOProperty"
-               ReferencedContainer = "container:SOProperty.xcodeproj">
+               BuildableName = "SORunTime.app"
+               BlueprintName = "SORunTime"
+               ReferencedContainer = "container:SORunTime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0961606E1CD1B37500391E9F"
-               BuildableName = "SOPropertyTests.xctest"
-               BlueprintName = "SOPropertyTests"
-               ReferencedContainer = "container:SOProperty.xcodeproj">
+               BuildableName = "SORunTime.xctest"
+               BlueprintName = "SORunTimeTests"
+               ReferencedContainer = "container:SORunTime.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "096160791CD1B37500391E9F"
-               BuildableName = "SOPropertyUITests.xctest"
-               BlueprintName = "SOPropertyUITests"
-               ReferencedContainer = "container:SOProperty.xcodeproj">
+               BuildableName = "SORunTime.xctest"
+               BlueprintName = "SORunTimeUITests"
+               ReferencedContainer = "container:SORunTime.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "096160521CD1B37500391E9F"
-            BuildableName = "SOProperty.app"
-            BlueprintName = "SOProperty"
-            ReferencedContainer = "container:SOProperty.xcodeproj">
+            BuildableName = "SORunTime.app"
+            BlueprintName = "SORunTime"
+            ReferencedContainer = "container:SORunTime.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "096160521CD1B37500391E9F"
-            BuildableName = "SOProperty.app"
-            BlueprintName = "SOProperty"
-            ReferencedContainer = "container:SOProperty.xcodeproj">
+            BuildableName = "SORunTime.app"
+            BlueprintName = "SORunTime"
+            ReferencedContainer = "container:SORunTime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "096160521CD1B37500391E9F"
-            BuildableName = "SOProperty.app"
-            BlueprintName = "SOProperty"
-            ReferencedContainer = "container:SOProperty.xcodeproj">
+            BuildableName = "SORunTime.app"
+            BlueprintName = "SORunTime"
+            ReferencedContainer = "container:SORunTime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
