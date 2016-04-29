@@ -19,6 +19,7 @@
 		0961608E1CD1B38800391E9F /* SOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961608D1CD1B38800391E9F /* SOModel.m */; };
 		096160911CD1C1D200391E9F /* UIButton+CallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 096160901CD1C1D200391E9F /* UIButton+CallBack.m */; };
 		096160941CD1DD7500391E9F /* UIImage+SO.m in Sources */ = {isa = PBXBuildFile; fileRef = 096160931CD1DD7500391E9F /* UIImage+SO.m */; };
+		09DD47D11CD34E8800A53B8C /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD47D01CD34E8800A53B8C /* NSObject+KVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		096160901CD1C1D200391E9F /* UIButton+CallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CallBack.m"; sourceTree = "<group>"; };
 		096160921CD1DD7500391E9F /* UIImage+SO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SO.h"; sourceTree = "<group>"; };
 		096160931CD1DD7500391E9F /* UIImage+SO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SO.m"; sourceTree = "<group>"; };
+		09DD47CF1CD34E8800A53B8C /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		09DD47D01CD34E8800A53B8C /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		0961604A1CD1B37500391E9F = {
 			isa = PBXGroup;
 			children = (
+				09DD47CF1CD34E8800A53B8C /* NSObject+KVO.h */,
+				09DD47D01CD34E8800A53B8C /* NSObject+KVO.m */,
 				096160921CD1DD7500391E9F /* UIImage+SO.h */,
 				096160931CD1DD7500391E9F /* UIImage+SO.m */,
 				096160551CD1B37500391E9F /* SOProperty */,
@@ -292,6 +297,7 @@
 				0961605B1CD1B37500391E9F /* AppDelegate.m in Sources */,
 				096160641CD1B37500391E9F /* SOProperty.xcdatamodeld in Sources */,
 				0961608E1CD1B38800391E9F /* SOModel.m in Sources */,
+				09DD47D11CD34E8800A53B8C /* NSObject+KVO.m in Sources */,
 				096160911CD1C1D200391E9F /* UIButton+CallBack.m in Sources */,
 				096160941CD1DD7500391E9F /* UIImage+SO.m in Sources */,
 				096160581CD1B37500391E9F /* main.m in Sources */,
@@ -518,6 +524,7 @@
 				096160851CD1B37600391E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		096160861CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SOPropertyTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				096160881CD1B37600391E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		096160891CD1B37600391E9F /* Build configuration list for PBXNativeTarget "SOPropertyUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				0961608B1CD1B37600391E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
